@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title> Here, you can check what Spaces your group has access to </title>
+    </head>
+    <body>
+        <div>
+            <form name="viewaccess.form" method="POST" action="selectgroup.action">
+                #tag( TextField "label='Group'" "name='groupID'" "size='50'" )
+                #tag( Submit "name='Search'" "value='searchspaces'" )
+        </div>
+    </body>
+</html>

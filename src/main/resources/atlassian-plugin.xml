@@ -21,7 +21,7 @@
         <package name="nortalAdminActions" extends="default" namespace="/admin-actions">
             <default-interceptor-ref name="defaultStack" />
             <action name="accessChecker" class="com.sabahang.plugins.ViewAccessAction">
-                <result name="success" type="velocity">/firstvm.vm</result>
+                <result name="input" type="velocity">/viewaccess.vm</result>
             </action>
         </package>
     </xwork>
